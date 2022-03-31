@@ -6,14 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css-ERRADO-DE-PROPOSITO" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="estilo.css">
 
 	<title>::: NetChute - Artigos esportivos. :::</title>
 
 	<script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
-	<script type="text/javascript" src="ME-CONSERTE-COM-A-PASTA-CERTA/jquery.maskedinput-1.1.4.pack.js" />
+	<script type="text/javascript" src="js/jquery.maskedinput-1.1.4.pack.js" />
 	</script>
 
 	<script type="text/javascript">
@@ -30,7 +30,7 @@
 
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index-errado.php">::: NetChute :::</a>
+				<a class="navbar-brand" href="index.php">::: NetChute :::</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -40,10 +40,10 @@
 							<a class="nav-link active" aria-current="page" href="index.php">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="listar-paise-da-oceania.php">Listar Clientes</a>
+							<a class="nav-link" href="listar.php">Listar Clientes</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="index-também-estou-errado.php">Cadastrar Clientes</a>
+							<a class="nav-link" href="index.php">Cadastrar Clientes</a>
 						</li>
 					</ul>
 				</div>
@@ -64,7 +64,7 @@
 
 			<div class="card-body">
 
-				<form name="frm" id="frm" action="index-errado-que-vai-para-um-lugar-que-nao-existe.php" method="post">
+				<form name="frm" id="frm" action="index.php" method="post">
 
 					<div class="row row g-2">
 						<div class="col col-sm">
@@ -92,7 +92,7 @@
 				</div>
 			</div>
 			<br>
-			button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
+			<button> type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
 
 			<br><br>
 
